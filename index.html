@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+      <!-- NAV -->
+    <div>
+        <div>
+            <ul>
+                <a href="#home" id="link"><li>HOME</li></a>
+                <a href="#gallery" id="link"><li>GALLERY</li></a>
+                <a href="#contact" id="link"><li>RESERVATIONS</li></a>
+                <a href="#videos">Videos</a>
+            </ul>
+        </div>
+    </div>
+
+     <!-- END NAV -->
+
+      <!-- HOME -->
+<div  id="home">
+    <div>
+        <div>
+          <span>Welcome to My Travel Blog</span>
+        </div>
+      </div>
+</div>
+  <!-- END HOME -->
+   
+ <!-- GALLERY -->
+
+<section>
+     <div id ="gallery">
+    <h1>Travel Gallery</h1>
+   <div>
+      <!-- PHOTO-CONTAINER 1 -->
+       <div>
+          <div>
+            <img src="./images/image1.jpg" alt="A beautiful beach">
+          <div>
+          <p>We have several travel locations, book your paradise!</p>
+          </div>
+         </div>
+       </div>
+      <!-- END PHOTO-CONTAINER 1 -->
+ 
+
+    <!-- PHOTO-CONTAINER 2 -->
+       <div>
+          <div>
+             <img src="./images/image2.jpg" alt="Mountain view">
+          <div>
+          <p>If you want to explore nature and fresh air, choose our mountains!</p>
+          </div>
+         </div>
+       </div>
+      <!-- END PHOTO-CONTAINER 2 -->
+    
+      <!-- PHOTO-CONTAINER 3 -->
+       <div>
+          <div>
+              <img src="./images/image3.jpg" alt="City skyline at night">
+          <div>
+          <p>Or you can choose the city for fun and adventure!</p>
+          </div>
+         </div>
+       </div>
+      <!-- END PHOTO-CONTAINER 3 -->
+   
+
+ </div>
+        </div>
+    </section>
+  <!-- END GALLERY -->
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<section id="videos">
+    <h2>Travel Videos</h2>
+    <iframe width="560" height="315" src="https://youtu.be/exI_hD_4jAM?si=mjnGW24SfpGris0Z frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<footer>
+    &copy; 2024 Travel Blog. All rights reserved.
+</footer>
+
+</body>
+</html>
