@@ -3,37 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Travel Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-        img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 <body>
       <!-- NAV -->
@@ -42,7 +13,7 @@
             <ul>
                 <a href="#home" id="link"><li>HOME</li></a>
                 <a href="#gallery" id="link"><li>GALLERY</li></a>
-                <a href="#contact" id="link"><li>RESERVATIONS</li></a>
+                <a href="#contact" id="link"><li>CONTACT</li></a>
                 <a href="#videos">Videos</a>
             </ul>
         </div>
@@ -106,18 +77,22 @@
     </section>
   <!-- END GALLERY -->
 
-<section id="contact">
+  <section id="contact">
     <h2>Contact Me</h2>
     <form action="submit_form.php" method="post">
         <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+        <input type="text" id="name" name="name" required><br>
+        
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" required><br>
+        
         <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        
         <input type="submit" value="Submit">
     </form>
 </section>
+
 
 <section id="videos">
     <h2>Travel Videos</h2>

@@ -1,0 +1,75 @@
+/* GENERAL STYLES */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+h1, h2, p {
+    font-family: 'Open Sans', sans-serif; /* You can change to another font family if you prefer */
+    color: #333;
+}
+
+/* Font size for different text elements */
+h1 {
+    font-size: 36px; /* Large title */
+}
+h2 {
+    font-size: 28px; /* Subheading */
+}
+p {
+    font-size: 16px; /* Paragraph text */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+input, textarea {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+/* Form input styles */
+input, textarea {
+    width: 100%; /* Full width of the container */
+    margin-bottom: 10px; /* Margin between the inputs */
+    padding: 10px; /* Padding inside the input */
+    border: 2px solid #ccc; /* Border with color */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Customize the submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555; /* Darker color on hover */
+}
